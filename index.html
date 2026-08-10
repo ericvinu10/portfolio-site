@@ -2,77 +2,131 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Eric Thomas Vinu - Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eric Thomas Vinu — Resume</title>
+
+  <!-- Google Fonts: a monospace face for the "code editor" feel, and a clean body face -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="resume">
+  <div class="page">
 
-    <header>
-      <h1>Eric Thomas Vinu</h1>
-      <h2>B.Tech Graduate</h2>
-      <p class="contact">
-        Trivandrum, IN 695006 | +91 8129499370 | ericvinu@gmail.com <br>
-        LinkedIn: <a href="https://linkedin.com/in/eric-thomasb85005321" target="_blank">linkedin.com/in/eric-thomasb85005321</a> |
-        GitHub: <a href="https://github.com/ericvinu10" target="_blank">github.com/ericvinu10</a>
-      </p>
+    <!-- ===== HEADER CARD ===== -->
+    <header class="profile-card">
+      <div class="window-dots">
+        <span class="dot dot-red"></span>
+        <span class="dot dot-yellow"></span>
+        <span class="dot dot-green"></span>
+      </div>
+
+      <p class="path">~/eric-thomas-vinu/resume.dev</p>
+
+      <h1 class="name">Eric Thomas Vinu</h1>
+      <p class="title">B.Tech Graduate — Computer Science</p>
+
+      <div class="contact-row">
+        <a class="pill" href="mailto:ericvinu@gmail.com">ericvinu@gmail.com</a>
+        <a class="pill" href="tel:+918129499370">+91 8129499370</a>
+        <span class="pill pill-static">Trivandrum, IN 695006</span>
+        <a class="pill" href="https://linkedin.com/in/eric-thomasb85005321" target="_blank">LinkedIn</a>
+        <a class="pill" href="https://github.com/ericvinu10" target="_blank">GitHub</a>
+      </div>
     </header>
 
-    <section>
-      <h3>Professional Summary</h3>
-      <p>
-        Final-year engineering student with a strong foundation in software development and cybersecurity
-        fundamentals, built through hands-on academic projects and applied coursework. Results-driven
-        cybersecurity intern with expertise in Java and Python. Contributed to security monitoring and
-        vulnerability assessments while fostering teamwork and communication among peers.
-      </p>
-      <p>
-        Experienced with project assistance and teamwork. Utilizes strong organizational skills to manage
-        tasks efficiently. Knowledge of effective communication and time management to support team objectives.
-        Successfully deployed and currently working on AI projects.
-      </p>
+    <!-- ===== SUMMARY ===== -->
+    <section class="folder">
+      <div class="folder-tab tab-blue">
+        <span class="tab-icon">📁</span> Professional Summary
+      </div>
+      <div class="folder-body">
+        <p>
+          Final-year engineering student with a strong foundation in software development and cybersecurity
+          fundamentals, built through hands-on academic projects and applied coursework. Results-driven
+          cybersecurity intern with expertise in Java and Python. Contributed to security monitoring and
+          vulnerability assessments while fostering teamwork and communication among peers.
+        </p>
+        <p>
+          Experienced with project assistance and teamwork. Utilizes strong organizational skills to manage
+          tasks efficiently. Knowledge of effective communication and time management to support team
+          objectives. Successfully deployed and currently working on AI projects.
+        </p>
+      </div>
     </section>
 
-    <section>
-      <h3>Skills</h3>
-      <ul class="skills-list">
-        <li>Java</li>
-        <li>Python</li>
-        <li>CyberSecurity</li>
-        <li>Vulnerability assessment</li>
-        <li>Teamwork and collaboration</li>
-        <li>Communication</li>
-        <li>Interpersonal and social skills</li>
-      </ul>
+    <!-- ===== SKILLS ===== -->
+    <section class="folder">
+      <div class="folder-tab tab-teal">
+        <span class="tab-icon">📁</span> Skills
+      </div>
+      <div class="folder-body">
+        <div class="skills-grid">
+          <span class="skill-chip">Java</span>
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">CyberSecurity</span>
+          <span class="skill-chip">Vulnerability Assessment</span>
+          <span class="skill-chip">Teamwork &amp; Collaboration</span>
+          <span class="skill-chip">Communication</span>
+          <span class="skill-chip">Interpersonal &amp; Social Skills</span>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h3>Projects</h3>
-      <p>SkillForge : AI-Powered Adaptive Skill Assessment & Career Platform</p>
-      <p>Repository Intelligence System : AI that understands your entire Codebase History</p>
+    <!-- ===== PROJECTS ===== -->
+    <section class="folder">
+      <div class="folder-tab tab-blue">
+        <span class="tab-icon">📁</span> Projects
+      </div>
+      <div class="folder-body">
+        <div class="project-card">
+          <h3>SkillForge</h3>
+          <p>AI-Powered Adaptive Skill Assessment &amp; Career Platform</p>
+        </div>
+        <div class="project-card">
+          <h3>Repository Intelligence System</h3>
+          <p>AI that understands your entire codebase history</p>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h3>Experience</h3>
-      <p><strong>Intern</strong>, 06/2025 - 07/2025</p>
-      <p><strong>ICT Academy</strong> - Trivandrum, India</p>
-      <ul>
-        <li>Worked with virtual machine environments for isolated testing and system analysis.</li>
-        <li>Collaborated with team members to develop cybersecurity awareness training materials.</li>
-        <li>Assisted in monitoring network security and identifying potential vulnerabilities.</li>
-        <li>Supported incident response efforts by documenting security breaches and outcomes.</li>
-        <li>Participated in vulnerability assessments using industry-standard tools and methodologies.</li>
-      </ul>
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="folder">
+      <div class="folder-tab tab-teal">
+        <span class="tab-icon">📁</span> Experience
+      </div>
+      <div class="folder-body">
+        <h3 class="entry-title">Intern <span class="entry-date">06/2025 – 07/2025</span></h3>
+        <p class="entry-sub">ICT Academy — Trivandrum, India</p>
+        <ul class="terminal-list">
+          <li>Worked with virtual machine environments for isolated testing and system analysis.</li>
+          <li>Collaborated with team members to develop cybersecurity awareness training materials.</li>
+          <li>Assisted in monitoring network security and identifying potential vulnerabilities.</li>
+          <li>Supported incident response efforts by documenting security breaches and outcomes.</li>
+          <li>Participated in vulnerability assessments using industry-standard tools and methodologies.</li>
+        </ul>
+      </div>
     </section>
 
-    <section>
-      <h3>Education</h3>
-      <p><strong>Bachelors in Engineering:</strong> Computer Science, Expected in 03/2027</p>
-      <p><strong>Marian Engineering College</strong> - Trivandrum, India</p>
-      <p><strong>Higher Education:</strong> Computer Science, 03/2023</p>
-      <p><strong>Loyola School</strong> - Trivandrum, India</p>
+    <!-- ===== EDUCATION ===== -->
+    <section class="folder">
+      <div class="folder-tab tab-blue">
+        <span class="tab-icon">📁</span> Education
+      </div>
+      <div class="folder-body">
+        <h3 class="entry-title">Bachelors in Engineering <span class="entry-date">Expected 03/2027</span></h3>
+        <p class="entry-sub">Computer Science — Marian Engineering College, Trivandrum, India</p>
+
+        <h3 class="entry-title">Higher Education <span class="entry-date">03/2023</span></h3>
+        <p class="entry-sub">Computer Science — Loyola School, Trivandrum, India</p>
+      </div>
     </section>
+
+    <footer class="footer-note">
+      Built with HTML &amp; CSS — deployed on GitHub Pages
+    </footer>
 
   </div>
 
